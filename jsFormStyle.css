@@ -1,0 +1,69 @@
+@media screen and (max-width: 1024px) {
+
+
+}
+
+body{
+    background-color:rgb(63, 221, 213);
+    position: absolute;
+    min-width: 300px;
+}
+#fullForm{
+    background-color: whitesmoke;
+    position: absolute;
+    margin-right: 300px;
+    margin-left: 600px;
+    margin-top: 100px;
+    border-radius: 6px;
+    text-align: center;
+    border-width: 30px;
+}
+#form{
+   margin-right: 50px;
+   margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+p{
+    position: relative;
+   
+    text-align: start;
+    font-size: large;
+    font-weight: bold;
+}
+button{
+    padding: 10px 150px 10px 150px;
+    border-radius: 8px;
+    background-color: rgb(63, 221, 213);
+    border-color:burlywood;
+    font-size: 18px;
+}
+input{
+    padding: 10px 88px 10px 88px;
+    border-radius: 5px;
+    border-color:greenyellow;
+    border: none;
+}
+.note{
+    font-weight: 300;
+}
+hr{
+    color: black;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 300;
+
+}
+#error{
+    color: brown;
+    margin-bottom: 20px;
+    font-size: x-large;
+    float: left;
+    background-color: cyan;
+}
+button:hover{
+    background-color: tomato;
+    color: white;
+    transition: 0.4s;
+}
